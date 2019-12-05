@@ -1,0 +1,185 @@
+
+body, html{
+	font-size: 100%;
+	font-family: "Verdana", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1rem;
+}
+
+body,html{
+	margin:0;
+	padding:0;
+}
+
+h1
+{
+	font-size: 20px;
+}
+
+nav ul{
+	list-style: none;
+	padding:0;
+	background: white;	
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	padding: .8rem 1rem;
+	display: block;
+	line-height: 1;
+}
+
+nav ul li{
+	border-bottom: 1px dotted white;
+}
+
+/*styling logo*/
+
+nav div first-child{
+	background:white;
+}
+
+nav div:first-child h1{
+	line-height:0;
+	padding: 0rem 0rem;
+	text-align: left;
+}
+
+nav div:first-child img{
+	padding-left: 1.5rem;
+	background-color: white;
+}
+
+nav div:first-child h1, nav ul{
+	margin:0;
+}
+
+/* Body Content */
+
+
+.body-container{
+	background-color:papayawhip;
+	display: flex;
+	align-items: Center;
+	flex:1;
+	flex-direction: column;
+}
+
+.body
+{
+	color: midnightblue;
+	flex:1;
+	
+}
+
+.name
+{
+	font-size: 100px;
+}
+
+
+
+.footer
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: dimgrey;
+	align-items: center;
+}
+
+.footer ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	background:dimgrey;	
+}
+
+.footer ul li {
+	display: flex;
+	color: white;
+	text-decoration: none;
+	padding: .8rem 1rem;
+	line-height: 1;
+	padding:1.2rem 1rem;
+}
+
+
+
+
+/*Styling for larger devices*/
+
+@media only screen and (min-width: 20em){
+	nav{
+		display: flex;
+		justify-content: space-between;
+		background: white;
+		align-items: center;
+	}
+
+	nav ul{
+		display: flex;
+		align-items: center;
+		background:none;
+	}
+	nav div:first-child h1{
+		padding: 0;
+		margin-left:0 1rem;
+	}
+
+	nav div:first-child img{
+		height: 40px;
+	}
+	nav ul li{
+		border-bottom: none;
+	}
+
+	nav ul li a{
+		padding:1.2rem 1rem;
+	}
+
+	nav ul li a:hover{
+		color: aliceblue;
+		transition: color .1s;
+	}
+/*
+	.footer nav{
+		display: flex;
+		justify-content: space-between;
+		background: white;
+		align-items: center;
+	}
+
+	.footer nav ul{
+		display: flex;
+		align-items: center;
+		background:none;
+	}
+	.footer nav div:first-child h1{
+		padding: 0;
+		margin-left:0 1rem;
+	}
+
+	.footer nav div:first-child img{
+		height: 40px;
+	}
+	.footer nav ul li{
+		border-bottom: none;
+	}
+
+	.footer nav ul li a{
+		padding:1.2rem 1rem;
+	}
+
+	.footer nav ul li a:hover{
+		color: aliceblue;
+		transition: color .1s;
+	}
+	*/
+}
+
