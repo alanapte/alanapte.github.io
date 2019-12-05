@@ -1,7 +1,7 @@
 
 body, html{
 	font-size: 100%;
-	font-family: "Verdana", sans-serif;
+	font-family: "Arial", sans-serif;
 }
 body {
     display: flex;
@@ -17,7 +17,41 @@ body,html{
 
 h1
 {
+	color: #4bc0c8;
 	font-size: 20px;
+}
+
+
+h2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: normal;
+	width: 100%;
+	font-family: "Bungee Shade", cursive;
+	margin-bottom: .1em;
+	
+	font-size: 8vw;
+	background: linear-gradient(
+		90deg, 
+		#4bc0c8 25%, 
+		#feac5e 25%, 
+		#feac5e 50%, 
+		#4bc0c8 50%, 
+		#4bc0c8 75%, 
+		#feac5e 75%, 
+		#feac5e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 20px, 20px;
+	background-position: 0 0;
+	animation: stripes 1s linear infinite;
+}	
+
+@keyframes stripes {
+	100% { 
+		background-position: 20px 0, 20px 0, 20px 0;
+	}
 }
 
 nav ul{
@@ -63,7 +97,7 @@ nav div:first-child h1, nav ul{
 
 
 .body-container{
-	background-color:papayawhip;
+	background-color:#ffed94;
 	display: flex;
 	align-items: Center;
 	flex:1;
@@ -147,39 +181,6 @@ nav div:first-child h1, nav ul{
 		color: aliceblue;
 		transition: color .1s;
 	}
-/*
-	.footer nav{
-		display: flex;
-		justify-content: space-between;
-		background: white;
-		align-items: center;
-	}
 
-	.footer nav ul{
-		display: flex;
-		align-items: center;
-		background:none;
-	}
-	.footer nav div:first-child h1{
-		padding: 0;
-		margin-left:0 1rem;
-	}
-
-	.footer nav div:first-child img{
-		height: 40px;
-	}
-	.footer nav ul li{
-		border-bottom: none;
-	}
-
-	.footer nav ul li a{
-		padding:1.2rem 1rem;
-	}
-
-	.footer nav ul li a:hover{
-		color: aliceblue;
-		transition: color .1s;
-	}
-	*/
 }
 
