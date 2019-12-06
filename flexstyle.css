@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap")
 
-/* bungee-shade-regular - latin */
-/* bungee-shade-regular - latin */
+
 /* bungee-shade-regular - latin */
 @font-face {
   font-family: 'Bungee Shade';
   font-style: normal;
   font-weight: 400;
+  src: url('fonts/bungee-shade-v5-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Bungee Shade'), local('BungeeShade-Regular'),
-       url('/fonts/bungee-shade-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/bungee-shade-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('fonts/bungee-shade-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/bungee-shade-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/bungee-shade-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/bungee-shade-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/bungee-shade-v5-latin-regular.svg#BungeeShade') format('svg'); /* Legacy iOS */
 }
-
 
 
 body, html{
 	font-size: 100%;
-	font-family: "Arial", sans-serif;
+	font-family: "Work Sans", sans-serif;
 }
 body {
     display: flex;
@@ -155,7 +157,6 @@ nav div:first-child h1, nav ul{
 	text-decoration: none;
 	padding: .8rem 1rem;
 	line-height: 1;
-	padding:1.2rem 1rem;
 }
 
 
@@ -196,6 +197,4 @@ nav div:first-child h1, nav ul{
 		color: aliceblue;
 		transition: color .1s;
 	}
-
 }
-
