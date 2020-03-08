@@ -24,7 +24,7 @@ TxtRotate.prototype.tick = function() {
 
   var that = this;
   //change the first constant below to change type time
-  var delta = 150 - Math.random() * 100;
+  var delta = 120 - Math.random() * 100;
   //change divided by constant to change backspace time
   if (this.isDeleting) { delta /= 5; }
 
