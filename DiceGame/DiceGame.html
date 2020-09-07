@@ -10,6 +10,7 @@
     </head>
 
     <body>
+        
         <div class="rules">
             <h1>Rules</h1>
                 <ul>
@@ -43,13 +44,23 @@
                 </div>
             </div>
             
-            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
-            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
-            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <button class="btn-new" id="newBtn"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll" id="rollBtn"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold" id="holdBtn"><i class="ion-ios-download-outline"></i>Hold</button>
             
             <input type="text" placeholder="Winning Score" class="winning-score">
 
             <img src="dice-5.png" alt="Dice" class="dice">
+
+            
+        </div>
+
+        <div class = "options">
+            <ul>
+                <li><a href="../index.html">Back</a></li>
+            </ul>
+            <button class="btn-pvp">PLAYER VS PLAYER</button>
+            <button class="btn-pvc">PLAYER VS COMPUTER</button>
         </div>
         
         <script src="app.js"></script>

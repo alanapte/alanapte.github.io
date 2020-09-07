@@ -1,6 +1,49 @@
 /**********************************************
 *** GENERAL
 **********************************************/
+.options {
+    background-color: #ffd1d3;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 60px;
+    margin-right: 15px;;
+    width: 180px;
+    float: none;
+    height: 150px;
+    padding: 20px;
+    right: 0px;
+}
+
+.options ul {
+    list-style: none;
+    position: relative;
+    left: 19px;
+    
+}
+
+.options ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
+.options ul li a:hover{
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.btn-pvp {
+    position: relative;
+    font-size: 16px;
+    top: 5px;
+}
+
+.btn-pvc {
+    position: relative;
+    font-size: 16px;
+    top: 15px;
+}
 
 .winning-score {
     position: absolute;
@@ -113,7 +156,7 @@ li {
 
 .active .player-name::after {
     content: "\2022";
-    font-size: 47px;
+    font-size: 35px;
     position: absolute;
     color: #EB4D4D;
     top: -7px;
@@ -178,6 +221,7 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+
 
 .dice {
     position: absolute;
