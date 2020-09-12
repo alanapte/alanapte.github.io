@@ -92,12 +92,15 @@ nav div:first-child h1, nav ul{
 }
 
 .left-container {
+    background: white;
     border-radius: 25px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     overflow: hidden;
     margin-bottom: 1.05rem;
     margin-top: 1.1rem;
     margin-left: auto;
+    margin-right: .5rem;
+    width: 35rem;
 }
 
 .myImage {
@@ -105,15 +108,27 @@ nav div:first-child h1, nav ul{
 }
 
 .right-container {
-    background: white;
     border-radius: 25px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     overflow: hidden;
     margin-bottom: 1.05rem;
     margin-top: 1.1rem;
     margin-right: auto;
-    margin-left: .5rem;
-    width: 35rem;
+}
+
+p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    font-size: 17px;
+}
+
+.firstp {
+    padding-top: 3rem;
+}
+
+.lastp {
+    padding-bottom: 3rem;
 }
 
 .footer
